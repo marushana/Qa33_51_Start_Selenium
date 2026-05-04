@@ -62,7 +62,7 @@ public class HomeWork {
 
         //following-sibling
         List<WebElement>list1 = wd.findElements(By.xpath("//h1/following-sibling::a"));
- 
+
         //preceding-sibling
         WebElement el7 = wd.findElement(By.xpath("//a[3]/preceding-sibling::a[2]"));
         List<WebElement>list3 = wd.findElements(By.xpath("//a[3]/preceding-sibling::*"));
